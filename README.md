@@ -1,9 +1,9 @@
 # SwingAPI-calc-MTE-group5
 
 
-Calculator Program Explanation
+# Calculator Program Explanation
 
-*Importing Libraries*
+# *Importing Libraries*
 
 The program starts by importing the necessary libraries:
 
@@ -17,7 +17,7 @@ import java.awt.event.*;
 - `java.awt.*`: This library provides classes for creating GUI components, such as `GridLayout` and `BorderLayout`.
 - `java.awt.event.*`: This library provides classes for handling events, such as button clicks and key presses.
 
-*Calculator Class*
+# *Calculator Class*
 
 The `Calculator` class implements the `ActionListener` interface, which provides a method for handling events:
 
@@ -25,7 +25,7 @@ The `Calculator` class implements the `ActionListener` interface, which provides
 public class Calculator implements ActionListener {
 ```
 
-*GUI Components*
+# *GUI Components*
 
 The program creates several GUI components:
 
@@ -34,7 +34,7 @@ The program creates several GUI components:
 - `JPanel panel`: The panel that holds the buttons.
 - `JButton[] buttons`: An array of buttons that represent the digits and operators.
 
-*Button Values and Operations*
+# *Button Values and Operations*
 
 The program defines an array of button values and an empty string to store the operation:
 
@@ -46,7 +46,7 @@ String[] buttonValues = {"7", "8", "9", "/",
 String operation = "";
 ```
 
-*Numbers and Result*
+# *Numbers and Result*
 
 The program defines three variables to store the numbers and result:
 
@@ -54,7 +54,7 @@ The program defines three variables to store the numbers and result:
 double number1, number2, result;
 ```
 
-*createGUI Method*
+# *createGUI Method*
 
 The `createGUI` method creates and configures the GUI components:
 
@@ -97,7 +97,7 @@ This method:
 9. Adds the panel to the center region of the frame.
 10. Makes the frame visible.
 
-*actionPerformed Method*
+# *actionPerformed Method*
 
 The `actionPerformed` method handles events triggered by button clicks:
 
@@ -144,7 +144,7 @@ This method:
 
 
 
-*System Requirements*
+# *System Requirements*
 
 - Java Development Kit (JDK) 8 or later
 - Java Runtime Environment (JRE) 8 or later
@@ -152,7 +152,7 @@ This method:
 - RAM: 128 MB or more
 - Disk Space: 100 MB or more
 
-*Software Installation*
+# *Software Installation*
 
 1. Download and install the JDK from the Oracle website: https://www.oracle.com/java/technologies/javase-downloads.html
 2. Download and install a Java IDE (Integrated Development Environment) such as Eclipse or NetBeans: https://www.eclipse.org/downloads/ or https://netbeans.apache.org/download/index.html
@@ -160,7 +160,7 @@ This method:
 4. Compile and run the program using the IDE.
 
 
-*Running the Application*
+# *Running the Application*
 
 To run the application, follow these steps:
 
